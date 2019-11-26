@@ -3,9 +3,11 @@ package com.wangp.myrabbitmq.util;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
+import java.io.IOException;
+
 public class ConnectionUtil{
 
-    public static Connection getConnection() throws Exception{
+    public static Connection getConnection() throws IOException {
         //连接工厂
         ConnectionFactory factory = new ConnectionFactory();
         //设置服务地址

@@ -3,7 +3,6 @@ package com.wangp.myrabbitmq.config;
 import com.wangp.myrabbitmq.interceptor.MyInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**

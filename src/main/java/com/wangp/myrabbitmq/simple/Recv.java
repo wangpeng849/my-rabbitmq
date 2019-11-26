@@ -4,7 +4,7 @@ import com.rabbitmq.client.*;
 import com.wangp.myrabbitmq.util.ConnectionUtil;
 
 import java.io.IOException;
-
+@Deprecated
 public class Recv {
     private final static String QUEUE_NAME = "q_test_01";
 

@@ -4,7 +4,7 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.QueueingConsumer;
 import com.wangp.myrabbitmq.util.ConnectionUtil;
-
+@Deprecated
 public class Recv2 {
     private final static String QUEUE_NAME = "q_test_01";
 

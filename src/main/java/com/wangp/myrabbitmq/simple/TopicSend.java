@@ -3,7 +3,7 @@ package com.wangp.myrabbitmq.simple;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.wangp.myrabbitmq.util.ConnectionUtil;
-
+@Deprecated
 public class TopicSend {
     private final static String EXCHANGE_NAME="test_exchange_topic";
 

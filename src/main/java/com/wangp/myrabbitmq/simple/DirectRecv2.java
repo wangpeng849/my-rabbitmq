@@ -4,7 +4,7 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.QueueingConsumer;
 import com.wangp.myrabbitmq.util.ConnectionUtil;
-
+@Deprecated
 public class DirectRecv2 {
     private final static String QUEUE_NAME = "test_queue_direct_2";
     private final static String EXCHANGE_NAME = "test_exchange_direct";
